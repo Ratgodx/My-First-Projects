@@ -1,0 +1,26 @@
+#This is a line of code to print "Hello World!", apprently a tradition for programming so I followed
+print("Hello World!")
+
+#THis is a line of code to do a simple math calculation, I calculated the average flight time from LA to Sydney
+print(7425 / 550)
+
+#This is a line of code to create a numbered list for use in a Leaderboard
+print("""1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.""")
+
+#This is a line of code for calculating a 20% tip on a dining bill, this time based on an input instead of static numbers like project #2
+bill = int(input())
+tip = (bill*20)/100
+print(float(tip))
+
+#THis is a line of code for checking if water has reached a boiling point in Celsius, this time I use an if statement
+temp = int(input))
+if temp>= 100:
+print("Boiling")
