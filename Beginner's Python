@@ -24,3 +24,18 @@ print(float(tip))
 temp = int(input))
 if temp>= 100:
 print("Boiling")
+
+
+#THis is code for making a working BMI calculator. THis one took me fucking forever to figure out lmfao. Sucks being retarded.
+Weight = float(input())
+Height = float(input())
+BMI = (Weight/Height**2)
+
+if BMI < 18.5:
+    print('Underweight')
+elif BMI >= 18.5 and BMI < 25:
+    print('Normal')
+elif BMI >= 25 and BMI < 30:
+    print('Overweight')
+elif BMI > 30:
+    print('Obesity')
